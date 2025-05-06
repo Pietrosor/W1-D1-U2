@@ -11,7 +11,7 @@ public class Esercizio3 {
 
     public static double areaTriangolo(double a,double b,double c){
         double semiPerimetro =(a+b+c)/2;
-        return semiPerimetro*(semiPerimetro-a)*(semiPerimetro-b)*(semiPerimetro-c);
+        return Math.sqrt(semiPerimetro*(semiPerimetro-a)*(semiPerimetro-b)*(semiPerimetro-c));
     }
 
     public static void main(String[] args) {
